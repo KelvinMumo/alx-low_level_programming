@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  *
@@ -13,17 +13,16 @@ int main(void)
 	l = 'a';
 	while (l <= 'z')
 	{
-		putchar(l);
-		l++;
-	}
-	l = 'A';
-	while (l <= 'Z')
-	{
-		putchar(l);
-		l++;
+		if ((l != 'e') && (l != 'q'))
+		{
+			putchar(l);
+			l++;
+		}
+		else
+		{
+			l++;
+		}
 	}
 	putchar('\n');
-
 	return (0);
-
 }
