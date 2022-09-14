@@ -18,11 +18,17 @@ void times_table(void)
 		{
 			c = a * b;
 
-			if (c < 10 && b != 9)
+			if (c < 5 && b != 9)
 			{
 				_putchar(c + '0');
 				_putchar(',');
 				_putchar(' ');
+				_putchar(' ');
+			}
+			if (c >=5 && c < 10 && b != 9)
+			{
+				_putchar(c + '0');
+				_putchar(',');
 				_putchar(' ');
 			}
 			if (c < 10 && b == 9)
