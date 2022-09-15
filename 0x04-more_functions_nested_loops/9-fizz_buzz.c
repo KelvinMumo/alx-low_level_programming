@@ -29,7 +29,7 @@ int main(void)
 			printf("FizzBuzz");
 			putchar(' ');
 		}
-	        if (((i % 3) != 0) && ((i % 5) != 0)) 
+	        if (((i % 3) != 0) && ((i % 5) != 0))
 		{
 			printf("%i", i);
 			putchar(' ');
