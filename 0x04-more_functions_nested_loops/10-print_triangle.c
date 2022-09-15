@@ -1,4 +1,5 @@
-nclude "main.h"
+#include "main.h"
+
 /**
  * print_triangle - prints triangle
  *
@@ -6,33 +7,29 @@ nclude "main.h"
  *
  * Return: Always 0.
  */
-
 void print_triangle(int size)
-
 {
-
-
 	int i;
-	int z;
-	int d;
-	int p;
+	int a;
+	int b;
+	int c;
 
 	if (size > 0)
 	{
-		d = size - 1;
+		b = size - 1;
 		for (i = 0; i < size ; i++)
 		{
-			for (z = d; z > 0 ; z--)
+			for (a = b; a > 0 ; a--)
 			{
 				_putchar (' ');
 			}
 
-			for (p = 0; p <= i; p++)
+			for (c = 0; c <= i; c++)
 			{
 				_putchar (35);
 			}
 
-			d--;
+			b--;
 
 			_putchar ('\n');
 
