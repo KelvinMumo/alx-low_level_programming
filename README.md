@@ -1,4 +1,5 @@
 # alx-low_level_programming
+
 Low level programming
 
-C programmimg concepts. 
+C programming concepts.
