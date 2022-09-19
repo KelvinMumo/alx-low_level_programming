@@ -29,7 +29,7 @@ int _atoi(char *s)
 		{
 			break;
 		}
-	}while (*s++);
+	} while (*s++);
 
 	return (n * i);
 }
