@@ -3,8 +3,8 @@
 /**
  * _strcat - Appends the src string to the dest string
  *
- * @src: source
  * @dest: destination
+ * @src: source
  *
  * Return: Pointer to the resulting string dest
  *
