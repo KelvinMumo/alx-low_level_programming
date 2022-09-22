@@ -12,21 +12,24 @@ char *leet(char *str)
 {
 	    int i;
 	    int j;
-
-	    char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	    char c[] = "aAeEoOtTlL";
+	    char n[] = "4433007711";
 
 	    i = 0;
 
-	    while (str[++i])
+	    while (str[i] != '\0')
 	    {
-		    for (j = 0; j <= 7; j++)
+		    j = 0;
+
+		    while (c[j] != '\0')
 		    {
-			    if (str[i] == leet[j] ||
-					    str[i] - 32 == leet[j])
+			    if (str[i] == c[j])
 			    {
-				    str[i] = j + '0';
+				    str[i] = n[j];
 			    }
+			    j++;
 		    }
+		    i++;
 	    }
 	    return (str);
 }
