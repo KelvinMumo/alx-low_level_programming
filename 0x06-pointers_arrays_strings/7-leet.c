@@ -17,7 +17,7 @@ char *leet(char *str)
 
 	    i = 0;
 
-	    while (str[i])
+	    while (str[++i])
 	    {
 		    for (j = 0; j <= 7; j++)
 		    {
@@ -27,8 +27,6 @@ char *leet(char *str)
 				    str[i] = j + '0';
 			    }
 		    }
-
-		    i++;
 	    }
 	    return (str);
 }
