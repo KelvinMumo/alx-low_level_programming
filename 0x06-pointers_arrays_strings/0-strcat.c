@@ -1,7 +1,7 @@
 #include <main.h>
 
 /**
- * *_strcat - Appends the src string to the dest string
+ * _strcat - Appends the src string to the dest string
  *
  * @src: source
  * @dest: destination
@@ -11,21 +11,23 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i = 0;
+	int i;
+	int j;
+
+	i = 0;
 
 	while (dest[i] != '\0')
 	{
 		i++;
 	}
 
-	int j = 0;
+	j = 0;
 
 	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
-		j++;
 		i++;
+		j++;
 	}
-	dest[i] = '\0';
 	return (dest);
 }
