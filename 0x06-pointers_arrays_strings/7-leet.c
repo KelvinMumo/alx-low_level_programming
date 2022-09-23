@@ -26,6 +26,7 @@ char *leet(char *str)
 			    if (str[i] == c[j])
 			    {
 				    str[i] = n[j];
+				    break;
 			    }
 			    j++;
 		    }
