@@ -5,7 +5,7 @@
  *
  * @s: string
  * @accept: string
- * 
+ *
  * Return: number of bytes
  *
  */
