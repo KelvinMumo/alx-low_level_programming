@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
  * create_array - Creates ana array of chars,
