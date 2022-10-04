@@ -30,6 +30,8 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
+	len++;
+
 	for (i = 0; i < len; i++)
 	{
 		a[i] = str[i];
