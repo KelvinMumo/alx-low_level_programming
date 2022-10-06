@@ -6,7 +6,7 @@
  * @min: minimum value 
  * @max: maximum value
  *
- * Return: pointer to newly allocated memory or NULL if fails
+ * Return: pointer to new array or NULL if malloc fails
  */
 int *array_range(int min, int max)
 {
@@ -23,9 +23,9 @@ int *array_range(int min, int max)
 	if (a == NULL)
 		return (NULL);
 
-	for (i = 0; i < size; i++, min++)
+	for (i = 0; min <= max; i++)
 	{
-		a[i] = min;
+		a[i] = min++;
 	}
 	return (a);
 }
