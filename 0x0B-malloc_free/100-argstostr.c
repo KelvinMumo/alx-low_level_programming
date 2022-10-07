@@ -5,7 +5,7 @@
  * @av: argument vector
  * Return: pointer to a new string,NULL if it fails
  */
-char *argstostr(int ac, char **av[])
+char *argstostr(int ac, char **av)
 {
 	char *s;
 	int i, j, k, len;
