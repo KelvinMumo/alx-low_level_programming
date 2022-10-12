@@ -11,5 +11,5 @@
 * **2-print_dog.c** - prints a `struct dog`
 \
 * **4-new_dog.c** - creates a new dog
-\
+<br>
 * **5-free_dog.c** - a function that frees dogs
