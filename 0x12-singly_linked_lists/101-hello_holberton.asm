@@ -1,12 +1,12 @@
-	global main
-	extern printf
+	global  main
+	extern  printf
 
 	section .text
 main:
-	movrdi, format
-	movrax, 0
-	call printf
-	movrax, 0
+	mov	rdi, format
+	mov	rax, 0
+	call	printf
+	mov	rax, 0
 	ret
 format:
 	db "Hello, Holberton", 10, 0
